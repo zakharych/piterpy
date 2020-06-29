@@ -1,0 +1,29 @@
+
+.button {
+    padding: 8px 19px;
+    border-radius: 4px;
+    background-color: $button-clolor;
+    border: none;
+    color: white;
+    font: normal 14px/1.42 'Open Sans','Segoe UI', sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+     background-color: $button_hover;
+     color: white;
+}
+
+.button__buy {
+    background-color: $button_buy;
+    color: #333;
+}
+
+.button__presen {    
+    background-color: $themecolor;
+    margin: 25px auto 0;
+    display: flex;
+    font-size: 24px;
+    padding: 8px 19px 11px;
+}

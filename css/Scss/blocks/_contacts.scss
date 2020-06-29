@@ -1,0 +1,35 @@
+
+
+
+.contact-section {
+
+    margin-top: 25px;
+}
+
+.contacts {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__list {
+    display: flex;
+    justify-content: start;
+    margin-right: 20px;
+}
+
+.contacts__item {
+    margin-right: 100px;
+}
+.contact__desc {
+    font-weight: bold;
+}
+
+.contact__tel {
+    display: block;
+}
+.contact__email {
+    display: block;
+}

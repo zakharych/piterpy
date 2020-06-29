@@ -1,0 +1,9 @@
+.container{
+ 
+    background-color: #29292c;
+    background-image:
+    url("../../img/bg/lion-header.jpg"),
+    url("../../img/bg/bottom-pic.png");
+    background-repeat: no-repeat;
+    background-position:center top,bottom 274px right -8px;
+}

@@ -1,0 +1,78 @@
+
+.container__about {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.about {
+    margin-bottom: 30px;
+}
+.about__list {
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.about__header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about__card {
+    margin-bottom: 10px;
+}
+
+
+
+.about__items {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #F4F5F5;
+    /* display: inline-block; */
+    overflow: hidden;
+    /* Fix for firefox and IE 10-11  */
+    -webkit-column-break-inside: avoid;
+    /* Chrome, Safari, Opera */
+    page-break-inside: avoid;
+    /* Firefox */
+    break-inside: avoid;
+    /* IE 10+ */
+    break-inside: avoid-column;
+}
+
+.about__item:before {
+    content: "- ";
+}
+
+.about__item {
+    padding: 0px 19px 8px;
+    border-radius: 4px;
+    background-color: #F4F5F5;
+    display: inline-block;
+}
+
+
+.about__theme {
+
+    font-size: 23px;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+
+
+.about__caption {
+    color: #818181;
+    margin-bottom: 42px;
+    line-height: 1.7;
+}
+
+.about__desc {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.about__title {
+    
+    font-size: 18px;
+}

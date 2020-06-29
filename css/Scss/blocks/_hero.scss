@@ -1,0 +1,66 @@
+.hero-section {
+     background: url(https://it-events.com/system/event_photos/imgs/000/013/098/original/bg.png) repeat, url(https://it-events.com/system/event_photos/imgs/000/013/099/original/Kuznetsov540.png) no-repeat; 
+    //background: url(https://it-events.com/system/event_photos/imgs/000/013/068/original/2019_2.jpg) no-repeat;
+    background-size: cover; 
+    color: white;
+    background-color: #202123;
+    margin-top: 68px;
+}
+
+
+.hero {
+    margin-top: 250px;
+    margin-bottom: 250px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.hero {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    height: 76vh;
+    max-height: 800px;
+    min-height: 370px;
+}
+
+
+
+.hero__title:after {
+    content: "Online";
+    display: inline-block;
+    background-color: #d90434;
+    transform: skewX(-10deg);
+    margin-left: 10px;
+    padding: 0px 5px;
+    color: white;
+}
+
+.hero__title-ex {
+    font-size: 35px;
+}
+
+.hero__title {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.hero__date {
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.hero__buy {
+    align-self: center;
+}
+
+.hero__button {
+    font-size: 32px;
+    padding: 8px 19px 12px;    
+    font-weight: 600;
+}

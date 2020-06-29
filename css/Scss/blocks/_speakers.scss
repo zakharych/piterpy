@@ -1,0 +1,72 @@
+/* спикеры */
+
+
+.speakers {
+    margin-top: 30px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.speaker__img {
+    height: 212px;
+    width: 212px;
+}
+
+.speaker__avatar {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;    
+    object-fit: cover;
+}
+
+.speaker {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.speaker__item {
+    margin-bottom: 30px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speaker__item:nth-child(7n+1) {
+
+    margin-left: 0px;
+}
+
+
+.speaker__img {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* filter: grayscale(50%); */
+
+}
+
+
+.speaker__title {
+    text-align: center;
+}
+
+.speaker__name {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 6px;
+}
+
+.speaker__company {
+    font-weight: bold;
+    color: #1D3B57;
+    margin-top: 5px;
+}
