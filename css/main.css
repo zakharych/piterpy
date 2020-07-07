@@ -938,9 +938,17 @@ button:hover {
 .speaker__item {
   margin-bottom: 30px;
   width: 20%;
+}
+
+.speaker__item:hover .speaker__img {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.speaker__link {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .speaker__item--wide {
@@ -956,7 +964,6 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* filter: grayscale(50%); */
 }
 
 .speaker__title {
@@ -1051,7 +1058,6 @@ button:hover {
 
 .memory__img:hover .memory__image {
   transform: scale(1.05);
-  filter: blur(0);
   transition: 0.5s;
 }
 
