@@ -18,10 +18,14 @@
 }
 
 .speaker__img {
+    height: 214px;
+    width: 214px;
+}
+
+.pk__img {
     height: 170px;
     width: 170px;
 }
-
 .speaker__avatar {
     display: block;
     height: 100%;
@@ -36,6 +40,9 @@
 }
 
 .speaker__item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 30px;
     width: 20%;
 
@@ -48,6 +55,15 @@
     }
 
 }
+
+.pk__item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 20%;
+}
+
 .speaker__link {
     align-items: center;
     display: flex;
@@ -59,8 +75,11 @@
     width: 25%;
 }
 
-
 .speaker__item:nth-child(7n+1) {
+
+    margin-left: 0px;
+}
+.pk__item:nth-child(7n+1) {
 
     margin-left: 0px;
 }

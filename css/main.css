@@ -919,6 +919,11 @@ button:hover {
 }
 
 .speaker__img {
+  height: 214px;
+  width: 214px;
+}
+
+.pk__img {
   height: 170px;
   width: 170px;
 }
@@ -937,6 +942,9 @@ button:hover {
 }
 
 .speaker__item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
   width: 20%;
 }
@@ -944,6 +952,14 @@ button:hover {
 .speaker__item:hover .speaker__img {
   transform: scale(1.05);
   transition: 0.5s;
+}
+
+.pk__item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  width: 20%;
 }
 
 .speaker__link {
@@ -957,6 +973,10 @@ button:hover {
 }
 
 .speaker__item:nth-child(7n+1) {
+  margin-left: 0px;
+}
+
+.pk__item:nth-child(7n+1) {
   margin-left: 0px;
 }
 
