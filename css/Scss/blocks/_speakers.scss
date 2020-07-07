@@ -11,10 +11,14 @@
     font-weight: bold;
     margin-bottom: 50px;
 }
+.pk__title {
+    
+    color: $spekerColor;
+}
 
 .speaker__img {
-    height: 212px;
-    width: 212px;
+    height: 170px;
+    width: 170px;
 }
 
 .speaker__avatar {
@@ -32,11 +36,16 @@
 
 .speaker__item {
     margin-bottom: 30px;
-    width: 25%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.speaker__item--wide {
+    width: 25%;
+}
+
 
 .speaker__item:nth-child(7n+1) {
 
