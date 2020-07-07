@@ -895,6 +895,7 @@ button:hover {
 .about__desc {
   margin-bottom: 30px;
   font-size: 18px;
+  text-align: center;
 }
 
 .about__title {
